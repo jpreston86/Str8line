@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Str8line Tattoo & Body Piercings
+email: str8line@embarqmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Str8line Tattoo takes pride in providing the best services and satisfying our customer needs. 
+  We specialize in tattoos and body piercings. Our tattoo styles range from portraits and 
+  watercolors to mandalas and traditional. We perform body piercings of all kinds, excluding dermals.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://str8linetattoo.com" # the base hostname & protocol for your site
 
 # Includes an icon in the footer for each username you enter
 footer-links:
