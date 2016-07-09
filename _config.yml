@@ -14,8 +14,22 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: str8line@embarqmail.com
+  facebook: str8linetattoo
+  flickr:
+  github:
+  instagram: str8line_tattoo
+  linkedin:
+  pinterest:
+  rss:
+  twitter: str8linetattoo
+  stackoverflow:
+  youtube:
+  googleplus: +Str8lineTattooFortMyers
 
 # Build settings
 markdown: kramdown
