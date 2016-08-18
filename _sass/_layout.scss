@@ -11,18 +11,20 @@
 }
 
 .site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
+    // font-size: 26px;
+    // font-weight: 300;
+    // line-height: 56px;
+    // letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.site-title img {
+    width: 60%;
+}
+
 
 .site-nav {
     float: right;
@@ -40,6 +42,11 @@
         &:not(:last-child) {
             margin-right: 20px;
         }
+
+        a.active {
+        	color: $brand-color !important;
+        }
+
     }
 
     @include media-query($on-palm) {
@@ -100,69 +107,8 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    text-align: center;
 }
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-
 
 /**
  * Page content
@@ -239,4 +185,48 @@
             font-size: 18px;
         }
     }
+}
+
+/**
+ * Contact Page
+ */
+ .address {
+   float: left;
+ }
+
+ .phone {
+   float: right;
+   text-align: center;
+ }
+
+ .map {
+   float: left;
+ }
+
+ .social-media {
+
+ }
+
+.img-circle {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.img-portfolio {
+  width: 30%;
+  height: auto;
+  border-radius: 15%;
+  margin-bottom: .5%;
+}
+
+.header-contact {
+  float: right;
+  margin-top: -30%;
+}
+
+.homepage-artist {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
 }
